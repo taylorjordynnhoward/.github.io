@@ -47,15 +47,12 @@ console.log('problem 3, company');
 
 // problem 4
 let sum = 0;
-for (var i = 0; i < company.employees.length, i++) {
+for (var i = 0; i < company.employees.length; i++) {
 sum += company.employees[i].salary;
 }
 console.log('Problem 4', sum);
 
 // problem 5
-function increaseBy10(num) {
-  return num * 1.1;
-}
 for (var i = 0; i < company.employees.length, i++) {
   if (company.employees[i].raise) {
     // increase salary
@@ -72,7 +69,7 @@ for (var i = 0; i < company.employees.length, i++) {
   if (peopleWFH.includes(company.employees[i].name)) {
     company.employees[i].wfh = true;
   } else {
-    company.employees[i].wfh = false; 
+    company.employees[i].wfh = false;
   }
 }
 const.log('Problem 6', company);
