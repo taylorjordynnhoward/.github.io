@@ -28,9 +28,9 @@ console.log('problem 1',sam, mary, bill);
 // problem 2
 
 const company = {
-  companyName: 'Tech Stars'
-  website: "www.techstars.site"
-  employees: [sam, mary, bill]
+  companyName: 'Tech Stars',
+  website: "www.techstars.site",
+  employees: [sam, mary, bill],
 }
 console.log ('problem 2', company);
 
@@ -53,7 +53,7 @@ sum += company.employees[i].salary;
 console.log('Problem 4', sum);
 
 // problem 5
-for (var i = 0; i < company.employees.length, i++) {
+for (var i = 0; i < company.employees.length; i++) {
   if (company.employees[i].raise) {
     // increase salary
 company.employees[i].salary *= 1.1;
@@ -65,11 +65,11 @@ console.log('problem 5', company);
 
 // problem 6
 const peopleWFH = ['Anna', 'Sam'];
-for (var i = 0; i < company.employees.length, i++) {
+for (var i = 0; i < company.employees.length; i++) {
   if (peopleWFH.includes(company.employees[i].name)) {
     company.employees[i].wfh = true;
   } else {
     company.employees[i].wfh = false;
   }
 }
-const.log('Problem 6', company);
+console.log('Problem 6', company);
