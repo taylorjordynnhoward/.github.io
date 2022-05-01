@@ -18,7 +18,10 @@ function result() {
 
   if(customName.value !== '') {
     const name = customName.value;
-
+    var newStory = storyText;
+    var xItem = randomValueFromArray(insertX);
+    var yItem = randomValueFromArray(insertY);
+    var zItem = randomValueFromArray(insertZ);
   }
 
   if(document.getElementById("uk").checked) {
