@@ -13,7 +13,7 @@ body{
 	height: 100%;
 	padding: 0;
 	margin: 0;
-	background: linear-gradient(to left top, #0045d6, #00a9f6);
+	background: linear-gradient(to left top, #EFA0D5, #EFA0D5);
 	font-family: 'Poppins', sans-serif;
 
 }
@@ -28,7 +28,7 @@ header{
 }
 
 .title{
-	color: #0045d6;
+	color: #EFA0D5;
 }
 
 .content{
@@ -81,3 +81,15 @@ header{
 #seconds::placeholder{
 	color: #ddd;
 }
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
